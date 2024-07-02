@@ -3,6 +3,7 @@
         <img src="../ResursP2/logo.png" alt="" class="logo">
         <nav>
             <NuxtLink class="nav-btn" to="/">Главная</NuxtLink>
+            <NuxtLink class="nav-btn" to="/about">О проекте</NuxtLink>
 
             <template v-if="status == 'authenticated'">
                 <NuxtLink class="nav-btn" to="/lk">Личный кабинет</NuxtLink>
